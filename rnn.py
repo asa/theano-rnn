@@ -14,8 +14,8 @@ import cPickle as pickle
 
 logger = logging.getLogger(__name__)
 
-import matplotlib.pyplot as plt
-plt.ion()
+#import matplotlib.pyplot as plt
+#plt.ion()
 
 mode = theano.Mode(linker='cvm')
 #mode = 'DEBUG_MODE'
